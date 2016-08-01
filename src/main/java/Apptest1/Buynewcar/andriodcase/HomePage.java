@@ -21,14 +21,6 @@ public class HomePage extends BasePage {
 		super(wd);
 //		initPage();
 	}
-
-	private void initPage() {
-		buyCar = findViewById("buycar_view");
-		discuss = findViewById("discuss_view");
-		mine = findViewById("mine_view");
-		search = findViewById("menu_search");
-		message = findViewById("messageBT");
-	}
 	
 	/**
 	 * 点击买车
